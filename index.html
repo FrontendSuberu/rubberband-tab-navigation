@@ -4,11 +4,23 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
     <title>rubberband-tab-navigation</title>
   </head>
   <body>
+    <!-- markup base template made -->
+    <main>
+      <nav data-nav-container>
+        <ul data-nav-wrapper>
+          <li><a data-links href="#"> Home</a></li>
+          <li><a data-links href="#"> Craft</a></li>
+          <li><a data-links href="#"> Details</a></li>
+          <li><a data-links href="#"> Interface</a></li>
+        </ul>
 
-<!-- markup base template made -->
+        <div aria-hidden data-nav-indicator></div>
+      </nav>
+    </main>
 
     <script type="module" src="/src/main.js"></script>
   </body>

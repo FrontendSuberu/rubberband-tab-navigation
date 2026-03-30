@@ -22,16 +22,9 @@ function removeDefaultLink() {
       e.preventDefault();
     });
 
-    link.addEventListener("mouseover", ({ target }) => {
+    link.addEventListener("mouseenter", ({ target }) => {
       move(target, idx);
     });
-
-    // link.addEventListener("mouseleave", () => {
-    //   indicator.style.removeProperty("--width", 0 + "px");
-    //   indicator.style.setProperty("--height", 0 + "px");
-    //   indicator.style.setProperty("--left", 0 + "px");
-    //   indicator.style.setProperty("--top", 0 + "px");
-    // });
   });
 }
 
